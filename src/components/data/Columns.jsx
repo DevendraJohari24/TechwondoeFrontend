@@ -23,7 +23,7 @@ export const Columns = [
         if(editToggle === props.row.index){
             return (
                 <div className="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
-                    <img className="w-10 h-10 rounded-full" src={`http://localhost:3001/assets/${props.row.original.picturePath}`} alt="" />
+                    <img className="w-10 h-10 rounded-full" src={`https://techwondoe-backend-buhqeryaq-devendrajohari24.vercel.app/assets/${props.row.original.picturePath}`} alt="" />
                     <div className="pl-3 w-full">
                         <div className="text-base font-semibold"><input type="text" value={newName} onChange={onChange} onBlur={onBlur} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" /></div>
                         <div className="font-normal text-gray-500">{props.row.original.email}</div>
