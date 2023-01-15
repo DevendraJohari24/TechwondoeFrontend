@@ -33,7 +33,7 @@ export const Columns = [
         }else{
             return (
                 <div className="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white overflow-hidden">
-                    <img className="w-10 h-10 rounded-full" src={`https://techwondoe-frontend-nine.vercel.app/assets/${props.row.original.picturePath}`} alt="" />
+                    <img className="w-10 h-10 rounded-full" src={`https://techwondoe-backend-buhqeryaq-devendrajohari24.vercel.app/assets/${props.row.original.picturePath}`} alt="" />
                     <div className="pl-3 w-full">
                         <div className="text-base font-semibold">{newName}</div>
                         <div className="font-normal text-gray-500">{props.row.original.email}</div>
